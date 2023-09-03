@@ -1,0 +1,95 @@
+.cardetails-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cardetails-payment {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardetails-head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.cardetails-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardetails-icons .fa-3x {
+  margin: 0 10px;
+}
+
+.cardetails-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cardetails-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  background-color: #f8f9fa;
+}
+
+.cardetails-icon-relative {
+  position: relative;
+}
+
+.cardetails-cardtype {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.cardetails-space {
+  margin-bottom: 20px;
+}
+
+.cardetails-card-grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardetails-card-item {
+  width: 48%;
+}
+
+.fa-calendar-alt,
+.fa-lock,
+.fa-user {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.cardetails-btn {
+  background-color: #0366d6;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cardetails-btn:hover {
+  background-color: #024a8f;
+}

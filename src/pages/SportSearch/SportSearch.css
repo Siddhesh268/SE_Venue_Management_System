@@ -1,0 +1,12 @@
+.sportsConatiner{
+    width: 70%;
+}
+
+.sportsConatinerDetailsButton{
+    height: 50px;
+    background-color: black;
+}
+
+.sportsConatinerDetailsButton:hover{
+    background-color: grey;
+}
